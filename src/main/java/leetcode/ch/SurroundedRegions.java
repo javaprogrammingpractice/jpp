@@ -1,4 +1,4 @@
-package com.unkown.leetcode;
+package leetcode.ch;
 
 import java.util.HashSet;
 
@@ -40,7 +40,6 @@ public class SurroundedRegions {
 		}
 		
 		for (int i=0; i<= this.maxRows; i++) {
-
 			
 			char[] tmp = board[i];
 			
